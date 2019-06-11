@@ -1,0 +1,4 @@
+#Thu May 16 16:43:20 CST 2019
+base.0=D\:\\Iven\\androidProject\\remoteyourcam-usb-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

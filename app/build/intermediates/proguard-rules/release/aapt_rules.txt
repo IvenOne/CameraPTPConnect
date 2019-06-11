@@ -1,0 +1,31 @@
+# Referenced at D:\Iven\androidProject\remoteyourcam-usb-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:45
+-keep class com.remoteyourcam.usb.MainActivity { <init>(); }
+# Referenced at D:\Iven\androidProject\remoteyourcam-usb-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:39
+-keep class com.remoteyourcam.usb.RycApplication { <init>(); }
+# Referenced at D:\Iven\androidProject\remoteyourcam-usb-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:64
+-keep class com.remoteyourcam.usb.activities.AppSettingsActivity { <init>(); }
+# Referenced at D:\Iven\androidProject\remoteyourcam-usb-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:68
+-keep class org.acra.CrashReportDialog { <init>(); }
+# Referenced at D:\Iven\androidProject\remoteyourcam-usb-master\app\src\main\res\layout\picture_frag.xml:21
+# Referenced at D:\Iven\androidProject\remoteyourcam-usb-master\app\src\main\res\layout\liveview.xml:21
+-keep class com.remoteyourcam.usb.PictureView { <init>(...); }
+
+# Referenced at D:\Iven\androidProject\remoteyourcam-usb-master\app\src\main\res\layout\properties_grid.xml:21
+-keep class com.remoteyourcam.usb.PropertyToggle { <init>(...); }
+
+# Referenced at D:\Iven\androidProject\remoteyourcam-usb-master\app\src\main\res\layout\thumbnail_list_item.xml:21
+# Referenced at D:\Iven\androidProject\remoteyourcam-usb-master\app\src\main\res\layout\gallery_list_item.xml:22
+-keep class com.remoteyourcam.usb.view.AspectRatioImageView { <init>(...); }
+
+# Referenced at D:\Iven\androidProject\remoteyourcam-usb-master\app\src\main\res\menu\main_menu.xml:33
+-keepclassmembers class * { *** onMenuAboutClicked(android.view.MenuItem); }
+
+# Referenced at D:\Iven\androidProject\remoteyourcam-usb-master\app\src\main\res\menu\main_menu.xml:28
+-keepclassmembers class * { *** onMenuChangelogClicked(android.view.MenuItem); }
+
+# Referenced at D:\Iven\androidProject\remoteyourcam-usb-master\app\src\main\res\menu\main_menu.xml:18
+-keepclassmembers class * { *** onMenuFeedbackClicked(android.view.MenuItem); }
+
+# Referenced at D:\Iven\androidProject\remoteyourcam-usb-master\app\src\main\res\menu\main_menu.xml:23
+-keepclassmembers class * { *** onMenuSettingsClicked(android.view.MenuItem); }
+
